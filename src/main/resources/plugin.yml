@@ -1,0 +1,10 @@
+name: MemeDisco
+version: ${project.version}
+main: pl.memexurer.memedisco.MemeDiscoPlugin
+description: Plugin na obsraną disco zbrojke.
+authors: [Memerura]
+commands:
+  disco:
+    description: Disko zbrojkaaaaa
+    aliases: [discoarmor, disco, diskozbrojka, lgbtzbrojka, twojstary]
+    permission: "memedisco.disco"

@@ -1,0 +1,27 @@
+title: "Titel"
+size: 9
+items:
+  '1':
+    action: RESET # RESET, GRAY_FADE_EFFECT, RAINBOW_EFFECT, RANDOM_EFFECT
+    type: "BARRIER:0"
+    name: "RESET"
+    lore:
+      - "cos"
+  '2':
+    action: GRAY_FADE_EFFECT # RESET, GRAY_FADE_EFFECT, RAINBOW_EFFECT, RANDOM_EFFECT
+    type: "BARRIER:0"
+    name: "GRAYFADE"
+    lore:
+      - "cos"
+  '3':
+    action: RAINBOW_EFFECT # RESET, GRAY_FADE_EFFECT, RAINBOW_EFFECT, RANDOM_EFFECT
+    type: "BARRIER:0"
+    name: "RAINBOW"
+    lore:
+      - "cos"
+  '4':
+    action: RANDOM_EFFECT # RESET, GRAY_FADE_EFFECT, RAINBOW_EFFECT, RANDOM_EFFECT
+    type: "BARRIER:0"
+    name: "RANDOM"
+    lore:
+      - "cos"
