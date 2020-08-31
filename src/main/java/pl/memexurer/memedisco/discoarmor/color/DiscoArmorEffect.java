@@ -3,6 +3,8 @@ package pl.memexurer.memedisco.discoarmor.color;
 import org.bukkit.Color;
 import org.bukkit.Material;
 import org.bukkit.craftbukkit.v1_8_R3.inventory.CraftItemStack;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.LeatherArmorMeta;
 
@@ -49,6 +51,9 @@ public abstract class DiscoArmorEffect {
         LeatherArmorMeta armorMeta = (LeatherArmorMeta) item.getItemMeta();
         armorMeta.setColor(color);
         item.setItemMeta(armorMeta);
+        armorMeta.addEnchant(Enchantment.LOOT_BONUS_BLOCKS, 1, true);
+        armorMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+        armorMeta.addItemFlags(ItemFlag.HIDE_PLACED_ON);
 
         return CraftItemStack.asCraftCopy(item);
     }

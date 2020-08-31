@@ -11,7 +11,7 @@ import pl.memexurer.memedisco.util.ItemSlot;
 
 public class PacketUpdateMethod implements ArmorUpdateMethod {
     @Override
-    public void updateArmor(DiscoPlayer discoPlayer) {
+    public void eupdateArmor(DiscoPlayer discoPlayer) {
         if (discoPlayer.isCrouching()) {
             sendSelfArmorChange(discoPlayer.getPlayer(), discoPlayer);
         }
