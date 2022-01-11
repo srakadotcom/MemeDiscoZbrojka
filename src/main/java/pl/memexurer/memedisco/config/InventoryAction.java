@@ -8,7 +8,8 @@ public enum InventoryAction {
     }),
     GRAY_FADE_EFFECT(player -> player.setCurrentEffect(MemeDiscoPlugin.getPluginInstance().getColorUpdateTask().getGrayFadeArmorEffect())),
     RAINBOW_EFFECT(player -> player.setCurrentEffect(MemeDiscoPlugin.getPluginInstance().getColorUpdateTask().getRainbowArmorEffect())),
-    RANDOM_EFFECT(player -> player.setCurrentEffect(MemeDiscoPlugin.getPluginInstance().getColorUpdateTask().getUltraArmorEffect()));
+    RANDOM_EFFECT(player -> player.setCurrentEffect(MemeDiscoPlugin.getPluginInstance().getColorUpdateTask().getUltraArmorEffect())),
+    NONE(player -> {});
     private InventoryEntryExecutor executor;
 
     InventoryAction(InventoryEntryExecutor e) {

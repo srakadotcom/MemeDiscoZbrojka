@@ -77,7 +77,7 @@
             <artifactId>jebacdisa</artifactId>
             <version>6.9-ZAJEBAL-SIE</version>
             <scope>system</scope>
-            <systemPath>C:/Users/Maso ochowe/Documents/Serwery/bep/coska.jar</systemPath>
+            <systemPath>C:\Users\memexurer\Desktop\Dupowanie — kopia\NachoSpigot.jar</systemPath>
         </dependency>
     </dependencies>
 </project>
